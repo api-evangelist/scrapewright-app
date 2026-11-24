@@ -1,4 +1,4 @@
-# scrapewright-app
+# scrapewright
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,127 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-scrapewright-app is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://scrapewright.app/
+Scrapewright provides a web‑scraping service that turns any URL into a reusable scraper. Users submit a site URL, the platform analyses the page once with a language model to generate CSS selectors for product data, then stores the recipe. Subsequent calls render the scraper cost‑free, delivering structured product information such as title, price, brand, images and description. The service offers a free tier with 1,000 rows per month and paid plans for higher volumes. It includes an HTTP API, a Python client library, and an MCP server for agents, all open‑source under the MIT licence.
+
+**Areas:** Company · Web Scraping · API · SaaS · Python · Open Source
+
+## scrapewright on APIs.io
+
+Everything profiled for scrapewright is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/scrapewright-app/](https://apis.io/providers/scrapewright-app/)** — or go straight to one of the APIs or properties below.
+
+### APIs (10)
+
+- [scrapewright Crawl API](https://apis.io/apis/scrapewright-app/scrapewright-app-crawl-api/) — The Crawl API from scrapewright — 1 operation(s) for crawl.
+- [scrapewright Credits API](https://apis.io/apis/scrapewright-app/scrapewright-app-credits-api/) — The Credits API from scrapewright — 2 operation(s) for credits.
+- [scrapewright Demo API](https://apis.io/apis/scrapewright-app/scrapewright-app-demo-api/) — The Demo API from scrapewright — 1 operation(s) for demo.
+- [scrapewright Detect API](https://apis.io/apis/scrapewright-app/scrapewright-app-detect-api/) — The Detect API from scrapewright — 1 operation(s) for detect.
+- [scrapewright Extract API](https://apis.io/apis/scrapewright-app/scrapewright-app-extract-api/) — The Extract API from scrapewright — 1 operation(s) for extract.
+- [scrapewright Health API](https://apis.io/apis/scrapewright-app/scrapewright-app-health-api/) — The Health API from scrapewright — 1 operation(s) for health.
+- [scrapewright Jobs API](https://apis.io/apis/scrapewright-app/scrapewright-app-jobs-api/) — The Jobs API from scrapewright — 3 operation(s) for jobs.
+- [scrapewright Signup API](https://apis.io/apis/scrapewright-app/scrapewright-app-signup-api/) — The Signup API from scrapewright — 1 operation(s) for signup.
+- [scrapewright Usage API](https://apis.io/apis/scrapewright-app/scrapewright-app-usage-api/) — The Usage API from scrapewright — 1 operation(s) for usage.
+- [scrapewright Webhooks API](https://apis.io/apis/scrapewright-app/scrapewright-app-webhooks-api/) — The Webhooks API from scrapewright — 1 operation(s) for webhooks.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [scrapewright Agentic Access](https://apis.io/agentic-access/scrapewright-app/scrapewright-app-agentic-access/)
+
+#### JSON Schema (5)
+
+The data models the API reads and writes.
+
+- [CheckoutRequest](https://apis.io/schemas/scrapewright-app/scrapewright-app-checkout-request/)
+- [CrawlRequest](https://apis.io/schemas/scrapewright-app/scrapewright-app-crawl-request/)
+- [DetectRequest](https://apis.io/schemas/scrapewright-app/scrapewright-app-detect-request/)
+- [ExtractRequest](https://apis.io/schemas/scrapewright-app/scrapewright-app-extract-request/)
+- [SignupRequest](https://apis.io/schemas/scrapewright-app/scrapewright-app-signup-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Scrapewright App Context](https://apis.io/jsonld/scrapewright-app/scrapewright-app-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [scrapewright API Rules](https://apis.io/rules/scrapewright-app/scrapewright-app-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [scrapewright Domain Security](https://apis.io/security/scrapewright-app/scrapewright-app-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://scrapewright.app/)
+- [Support](https://scrapewright.app/support)
+- [Blog](https://scrapewright.app/blog)
+- [Terms of service](https://scrapewright.app/terms)
+- [Privacy policy](https://scrapewright.app/privacy)
+
+## API Evangelist rating
+
+**Kin Score 33.5** — thin · rubric 0.27.0 · scored 2026-11-24
+
+| Facet | Score |
+|---|---|
+| Discoverability | 53.3 |
+| Contract quality | 50.0 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 21.1 |
+
+**Agent readiness 29.8** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 18.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/scrapewright-app/](https://apis.io/providers/scrapewright-app/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for scrapewright: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/scrapewright-app/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
